@@ -15,6 +15,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   color: white;
+  overflow: hidden;
 }
 
 .container {
@@ -23,12 +24,15 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 2rem;
 }
 
 #heading {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
 }
 
 .clock {
